@@ -2,7 +2,9 @@
 :root {
   scroll-behavior: smooth;
 }
-
+p {
+  direction: rtl;
+}
 a {
   color: var(--color-links);
   text-decoration: none;
@@ -20,6 +22,7 @@ h4,
 h5,
 h6 {
   font-family: var(--font-primary);
+  direction: rtl;
 }
 
 /*--------------------------------------------------------------
@@ -289,6 +292,7 @@ section {
     white-space: nowrap;
     transition: 0.3s;
     position: relative;
+    direction: rtl;
   }
 
   .navbar a i,
@@ -470,6 +474,8 @@ section {
     color: rgba(var(--color-white-rgb), 0.7);
     white-space: nowrap;
     transition: 0.3s;
+    direction: rtl;
+
   }
 
   .navbar a i,
@@ -677,6 +683,8 @@ section {
   flex-direction: column;
   justify-content: center;
   padding: 140px 0 60px 0;
+  direction: rtl;
+
 }
 
 .hero .carousel-item {
@@ -736,6 +744,7 @@ section {
 
 .hero .carousel-control-prev {
   justify-content: start;
+
 }
 
 @media (min-width: 640px) {
@@ -767,6 +776,8 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
+  direction: rtl;
+
 }
 
 .hero .carousel-control-next-icon {
@@ -985,6 +996,7 @@ section {
   margin: 0 0 30px 0;
   font-size: 20px;
   font-weight: 400;
+  direction: rtl;
 }
 
 .hero-static .btn-get-started {
@@ -1036,6 +1048,8 @@ section {
   .hero-static p {
     font-size: 18px;
     margin-bottom: 30px;
+    direction: rtl;
+
   }
 
   .hero-static .btn-get-started,
@@ -1079,6 +1093,8 @@ section {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
+  direction: rtl;
+
 }
 
 .featured-services .service-item:hover {
@@ -1350,6 +1366,8 @@ section {
   justify-content: center;
   color: var(--color-white);
   background: var(--color-primary);
+  direction: rtl;
+
 }
 
 .onfocus .content .read-more i {
@@ -1434,7 +1452,9 @@ section {
   border-left: 15px solid var(--color-primary);
   transform: scale(20);
 }
-
+.onfocus .contact p{
+  direction: rtl;
+}
 @keyframes pulsate-btn {
   0% {
     transform: scale(0.6, 0.6);
@@ -1467,6 +1487,8 @@ section {
   transition: 0s;
   cursor: pointer;
   height: 100%;
+  direction: rtl;
+
 }
 
 .features .nav-link i {
@@ -1583,6 +1605,8 @@ section {
   top: -36px;
   left: calc(50% - 36px);
   border: 6px solid var(--color-white);
+  direction: rtl;
+
 }
 
 .services .details h3 {
